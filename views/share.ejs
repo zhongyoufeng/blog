@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>全村人的希望个人博客</title>
+    <link href="/stylesheets/base.css" rel="stylesheet">
+    <link href="/stylesheets/style2.css" rel="stylesheet">
+    <link href="/stylesheets/media.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+
+    <script src="/stylesheets/modernizr.js"></script>
+    <style>
+
+    </style>
+</head>
+<body>
+<div class="ibody">
+    <header>
+        <h1>全村人的希望</h1>
+        <h2>村子是一个会撒谎的精灵，它在虚空中流浪和等待被发现之间;在过去与未来之间....</h2>
+        <div class="logo"><a href="#"></a></div>
+        <nav id="topnav"><a href="sy">首页</a><a href="about">关于我们</a><a href="newlist">心情随摘</a><a href="share">电影分享</a><a
+                    href="news">写影评</a></nav>
+    </header>
+    <article>
+        <h2 class="about_h">您现在的位置是：<a href="#">首页</a>><a href="#">电影分享</a></h2>
+        <div class="template">
+            <% dirArr.forEach(function(item){ %>
+
+            <ul>
+                <li><a href="/show/<%= item %>"><img src="/stylesheets/dy.png" style="width:200px;height:200px">
+                        <h1 style="font-size: 20px"><%= item %></h1></a></li>
+
+            </ul>
+            <% }) %>
+
+
+        </div>
+    </article>
+    <aside>
+        <div class="rnav">
+            <li class="rnav1 "><a href="https://blog.csdn.net/zyf19971112" target="_blank">个人博客</a></li>
+            <li class="rnav2 "><a href="#">企业网站</a></li>
+            <li class="rnav3 "><a href="#">个人作品</a></li>
+            <li class="rnav4 "><a href="#">个人简历</a></li>
+        </div>
+        <div class="ph_news">
+            <h2>
+                <p>点击排行</p>
+            </h2>
+            <ul class="ph_n">
+                <li><span class="num1">1</span><a href="#">有一种思念，是淡淡的幸福,一个心情一行文字</a></li>
+                <li><span class="num2">2</span><a href="#">励志人生-要做一个潇洒的女人</a></li>
+                <li><span class="num3">3</span><a href="#">女孩都有浪漫的小情怀——浪漫的求婚词</a></li>
+                <li><span>4</span><a href="#">Green绿色小清新的夏天-个人博客</a></li>
+                <li><span>5</span><a href="#">帅哥清新个人博客网站</a></li>
+                <li><span>6</span><a href="#">Wedding-婚礼主题、情人节网站</a></li>
+                <li><span>7</span><a href="#">Column 三栏布局 个人网站</a></li>
+                <li><span>8</span><a href="#">时间煮雨-个人网站</a></li>
+                <li><span>9</span><a href="#">花气袭人是酒香—个人网站</a></li>
+            </ul>
+            <h2>
+                <p>栏目推荐</p>
+            </h2>
+            <ul>
+                <li><a href="#">有一种思念，是淡淡的幸福,一个心情一行文字</a></li>
+                <li><a href="#">励志人生-要做一个潇洒的女人</a></li>
+                <li><a href="#">女孩都有浪漫的小情怀——浪漫的求婚词</a></li>
+                <li><a href="#">Green绿色小清新的夏天-个人博客</a></li>
+                <li><a href="#">帅哥清新个人博客网站</a></li>
+                <li><a href="#">Wedding-婚礼主题、情人节网站</a></li>
+                <li><a href="#">Column 三栏布局 个人网站</a></li>
+                <li><a href="#">时间煮雨-个人网站</a></li>
+                <li><a href="#">花气袭人是酒香—个人网站</a></li>
+            </ul>
+            <h2>
+                <p>最新评论</p>
+            </h2>
+            <ul class="pl_n">
+                <dl>
+                    <dt><img src="/stylesheets/s8.jpg"></dt>
+                    <dt></dt>
+                    <dd>吴亦凡
+                        <time>49分钟前</time>
+                    </dd>
+                    <dd><a href="#">文章非常详细，我很喜欢.前端的工程师很少，我记得几年前yahoo花高薪招聘前端也招不到</a></dd>
+                </dl>
+                <dl>
+                    <dt><img src="/stylesheets/s7.jpg"></dt>
+                    <dt></dt>
+                    <dd>鹿晗
+                        <time>2小时前</time>
+                    </dd>
+                    <dd><a href="#">我手机里面也有这样一个号码存在</a></dd>
+                </dl>
+                <dl>
+                    <dt><img src="/stylesheets/s6.jpg"></dt>
+                    <dt></dt>
+                    <dd>灰太狼
+                        <time>7月4日</time>
+                    </dd>
+                    <dd><a href="#">博客色彩丰富，很是好看</a></dd>
+                </dl>
+                <dl>
+                    <dt><img src="/stylesheets/003.jpg"></dt>
+                    <dt></dt>
+                    <dd>九阳真经
+                        <time>49分钟前</time>
+                    </dd>
+                    <dd><a href="#">文章非常详细，我很喜欢.前端的工程师很少，我记得几年前yahoo花高薪招聘前端也招不到</a></dd>
+                </dl>
+                <dl>
+                    <dt><img src="/stylesheets/002.jpg"></dt>
+                    <dt></dt>
+                    <dd>白白
+                        <time>2小时前</time>
+                    </dd>
+                    <dd><a href="#">我手机里面也有这样一个号码存在</a></dd>
+                </dl>
+            </ul>
+            <h2>
+                <p>最近访客</p>
+                <ul>
+                    <img src="/stylesheets/vis.jpg"><!-- 直接使用“多说”插件的调用代码 -->
+                </ul>
+            </h2>
+        </div>
+        <div class="copyright">
+            <ul>
+                <p> Design by <a href="#">全村人的希望</a></p>
+
+            </ul>
+        </div>
+    </aside>
+    <script src="/javascripts/silder.js"></script>
+    <div class="clear"></div>
+    <!-- 清除浮动 -->
+</div>
+</body>
+</html>

@@ -1,0 +1,3 @@
+ul{list-style: none}
+li{width:200px;height:200px;background:orange;float:left;margin:10px;}
+li>img{width:200px;height:200px;}

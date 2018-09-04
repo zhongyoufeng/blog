@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Innovative Login Form Flat Responsive Widget Template :: w3layouts</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <link href='//fonts.googleapis.com/css?family=Text+Me+One' rel='stylesheet' type='text/css'>
+  <script src="/javascripts/jquery.min.js"></script>
+  <script type="text/javascript">
+      $(document).ready(function(){
+          $("#b01").click(function(){
+              var text=$("#w").val();
+              $("#myDiv").html(text);
+              $(" #w").val("")
+          });
+      });
+
+  </script>
+
+</head>
+<body>
+<h2>写影评</h2>
+<textarea id="w"></textarea>
+<button id="b01" type="button">评论</button>
+<div id="myDiv"></div>
+
+</body>
+</html>

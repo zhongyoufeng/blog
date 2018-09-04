@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %></title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <link rel="stylesheet" href="/stylesheets/album.css">
+</head>
+<body>
+<div id="box">
+  <h1>相册</h1>
+  <ul>
+    <% imgArr.forEach(function(item){ %>
+    <li><img src="/upload/<%=item%>" alt=""></li>
+    <% }) %>
+  </ul>
+</div>
+</body>
+</html>
